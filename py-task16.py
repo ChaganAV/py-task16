@@ -1,6 +1,7 @@
 import random
 
 min = 0
+min1 = 1
 max = 5
 try:
     # N = 20//2
@@ -10,7 +11,7 @@ try:
     print(X)
     numbers = []
     for num in range(min,N):
-        numbers.append(random.randint(min,max))
+        numbers.append(random.randint(min1,max))
     count = 0
     print(numbers)
     if X in numbers:
